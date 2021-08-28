@@ -49,7 +49,7 @@ callOtherFunction(function (a, b) {
     console.log("Result", a / b)
 })
 
-3). Create a function to return "Hi" string.
+4). Create a function to return "Hi" string.
 Test out different ways to call function:
 -before defining, then after defining.
 Comment on this.
