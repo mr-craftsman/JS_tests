@@ -11,8 +11,8 @@ Show new array in a console.
 7). Create a function, with a parameter - an integer between 1-10. Set a default value for that parameter. 
 Within a function - run a function setInterval - that will write in console "Hello" and a counter, counting, how many times it has setInterval been triggered.
 When counter reaches parameter value, setInterval should be removed.
-8). Using ex07.js, add a function generateLinks, that will use an array with webpages names, will create a new array with links to those webpages.
+8). Using ex08.js, add a function generateLinks, that will use an array with webpages names, will create a new array with links to those webpages.
 Put generated addresses to the 'a' elements in a list with 'menu' class, index.html file. (maybe use jQuery)
-9). Use ex09.js. The object "dog" has an incorrect setName method. Fix it.
+9). Use ex08.js. The object "dog" has an incorrect setName method. Fix it.
 10). Use index.html - there are several div elements with 'span' and 'ul' list. Use ex10.js, and make it so, that after hovering over 'span', the 'ul' will expand.
 Remember to use arrow function.

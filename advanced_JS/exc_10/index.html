@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    
+</head>
+<body>
+
+    <nav class='navbar navbar-default'>
+        <div class='container'>
+            <div class="navbar-header">
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class='col-xs-12 col-sm-6 col-sm-offset-3'>
+            <div class='page-header'>
+                <h1>Toppings</h1>
+                <p>
+                   Total sum for toppings is <span id="price">0 eur</span>
+                </p>
+            </div>
+
+            <div class='panel'>
+                <div class='panel-body'>
+                    <form>
+                        <div class="checkbox">
+                            <label><input type="checkbox">All toppings</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" data-price="3.50">Additional cheese, 1,50 eur</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" data-price="2.20">Additional sauce, 1,20 eur</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" data-price="5.00">Additional bacon, 2 eur</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" data-price="4.10">Pineapple, 2 eur</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" data-price="3.50">Mushrooms, 1,50 eur</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox">Clear all</label>
+                        </div>
+                        <br>
+                        <p>
+                            <button class='btn btn-primary'>Submit</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/pizza.js" type="text/javascript"></script>
+</body>
+</html>

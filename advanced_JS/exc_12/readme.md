@@ -1,6 +1,6 @@
 Let and const
 0). Create your environment (npm init, modules, webpack with outgoing js/out.js)
-1). Variables scopes.
+1). Variables scopes. ex01.js
 Create within js file two variables : let and const.
 Check out their scope, using:
 -loop
